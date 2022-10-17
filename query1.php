@@ -1,6 +1,6 @@
 <?php
 
-    $sql = "SELECY accountId FROM previousrental
+    $sql = "SELECT accountId FROM previousrental
     UNION
     SELECT accountId FROM customer;
     SELECT videoId FROM video 
