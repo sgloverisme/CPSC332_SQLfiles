@@ -1,6 +1,6 @@
 <?php
 
-    $sql = "SELECY * FROM customerSELECT accountId, COUNT(*) as TOTALR
+    $sql = "SELECT * FROM customerSELECT accountId, COUNT(*) as TOTALR
     FROM rental as r 
     GROUP BY accountId
     ORDER BY COUNT(*) DESC;";
